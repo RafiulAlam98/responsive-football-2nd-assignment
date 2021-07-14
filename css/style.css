@@ -130,6 +130,33 @@ main {
   color: tomato;
 }
 
+/* -----------
+      Sponsor section
+-------------------------- */
+
+.sponsor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 30px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.sponsor-title h2 {
+  font-size: 30px;
+  color: tomato;
+  padding: 0 0 10px 0;
+}
+
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sponsor img {
+  width: 100%;
+}
+
 /* -------------
             Footer Section
 --------------- */
@@ -172,6 +199,10 @@ Mobile devices
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .header-info {
+    width: 250px;
+  }
+
   .player-container {
     width: 100%;
   }
@@ -188,14 +219,12 @@ Mobile devices
 
   .video-description {
     margin-bottom: 10px;
-  }
-
-  .header-info {
-    width: 250px;
-  }
-
-  .video-description {
     width: 300px;
+  }
+
+  .sponsors {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
