@@ -52,7 +52,7 @@ header {
   padding: 10px 24px;
 }
 
-.btn:hover {
+#btn-effect:hover {
   transform: scale(1.2);
   transition: transform 0.5s;
 }
@@ -67,16 +67,21 @@ header {
 }
 
 /* --------
-      players-section
+      main-section
 ------------ */
 
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 70px;
 }
 
-.container {
+/* --------
+      Player-section
+------------ */
+
+.player-container {
   width: 1076px;
 }
 
@@ -106,12 +111,34 @@ main {
   color: #6c6c6c;
 }
 
+/* ---------------
+              Video Section added
+------------ */
+
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+}
+
+.video-description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  margin-left: 100px;
+}
+
+.color {
+  color: tomato;
+}
+
 /* -------------
             Footer Section
 --------------- */
 
 footer {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .footer-container {
@@ -167,7 +194,14 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
   .footer-logo img {
     width: 270px;
+  }
+
+  .video-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 69px;
   }
 }
