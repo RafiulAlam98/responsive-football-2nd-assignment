@@ -158,7 +158,6 @@ footer {
       Media Queries
 ---------------------- */
 /* 
-
 /* -----------
 Mobile devices
 -------------- */
@@ -197,5 +196,19 @@ Mobile devices
 
   .video-description {
     width: 300px;
+  }
+}
+
+/* -------------------
+      tablet device
+--------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .player-container {
+    width: 100%;
   }
 }
