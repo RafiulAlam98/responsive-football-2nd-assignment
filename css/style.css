@@ -1,0 +1,78 @@
+/* ---------------
+        Google fonts
+------------------------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------
+            Header Section
+-------------------------- */
+
+header {
+  background-color: #2d25a0;
+}
+
+.header-container {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 70px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.header-info {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 140px; */
+  margin-left: 156px;
+  margin-right: 102px;
+}
+
+.header-title {
+  font-size: 54px;
+  color: #ffffff;
+}
+
+.header-thumbnail img {
+  width: 556px;
+}
+
+/* --------
+      players-section
+------------ */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1050px;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-row-gap: 30px;
+  grid-column-gap: 27px; */
+}
+
+.player-thumbnail img {
+  width: 330px;
+}
+
+.player-title h2 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
