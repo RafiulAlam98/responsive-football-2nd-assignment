@@ -118,7 +118,7 @@ main {
 .video-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .video-description {
